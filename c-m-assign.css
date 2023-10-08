@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(4, 5, 5);
+  font-family: Karla;
+  max-width: 1440px;
+  min-width: 375px;
+  width: 375px;
+  margin: 20px auto;
+}
+
+.first-block {
+  background-color: hsl(204, 43%, 93%);
+  padding: 60px 5px 70px;
+  margin: auto 30px;
+  height: 570px;
+}
+
+.second-block {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 270px;
+  margin: auto;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 0 10px 1.5rem rgba(116, 147, 155, 0.3);
+}
+
+.upward {
+  background-color: #ffff;
+  padding-top: 8px;
+  padding-left: 30px;
+}
+
+.join-community {
+  font-size: 18px;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+ }
+
+ .days {
+  font-size: 14px;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: -2px;
+
+ }
+
+ .gain {
+   font-size: 12px; 
+   color: hsl(218, 22%, 67%);
+   font-weight: 400;
+   margin-bottom: 22px;
+   line-height: 22px;
+ }
+
+.gain br {
+  display: none; 
+}
+
+
+ .downward {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.subscription {
+  flex: 1;
+  background-color: rgb(27, 182, 182);
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.monthly {
+  font-size: 14px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 5px;
+ }
+
+ .price {
+  font-size: 25px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  margin-right: 4px;
+  margin-bottom: 0;
+  vertical-align: middle;
+ }
+
+ .per-month {
+  font-size: 12px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 200;
+  margin-bottom: 0;
+  opacity: 0.8;
+ }
+
+ .full-access {
+  font-size: 12px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  margin-top: -8px;
+  padding-bottom: 10px;
+ }
+
+ button {
+  background-color: hsl(71, 73%, 54%);
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  margin: auto 0;
+  width: 200px;
+  height: 38px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 0.9rem rgb(13, 139, 129);
+  border: solid;
+  border-color: rgba(13, 139, 129, 0.7);
+  border-width: 0.5px;
+  }
+
+.why {
+  flex: 1;
+  background-color: rgb(77, 186, 186);
+  font-size: 11px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 200;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  line-height: 16px;
+  margin-left: -8px;
+}
+ 
+ .why-us {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 22px;
+ }
+
+
+
+ @media only screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    
+  }
+  
+  .first-block {
+    padding: 120px 120px 12px;
+    margin:  60px 160px 38px;
+    height: 500px;
+
+  }
+  
+  .second-block {
+    margin: auto;
+    padding: 0;
+    width: 500px;
+    box-shadow: 0 10px 1.5rem rgba(116, 147, 155, 0.3);
+  }
+  
+  .upward {
+    padding-top: 22px;
+  }
+
+  .gain {
+    line-height: 20px;
+  }
+
+  .gain br {
+    display: initial;
+  }
+
+  .downward {
+   flex-direction: row;
+ }
+ 
+ .subscription {
+   padding-bottom: 32px;
+ }
+ 
+ .monthly {
+   margin-top: 32px;
+   margin-bottom: 2px;
+  }
+ 
+ 
+  button {
+   width: 185px;
+   }
+  
+  .why-us {
+   margin-top: 32px;
+  }
+  
+   }
+  
+   
+ 
